@@ -1,0 +1,224 @@
+/*===============*/
+/*==BASIC SETUP==*/
+/*===============*/
+@font-face{
+    font-family: Lato;
+    src: url(../font/Lato-Bol.ttf);  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    font-size: 13px;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*==================*/
+/*==HEADER SECTION==*/
+/*==================*/
+header{
+    width: 100%;
+    height: 620px;
+}
+header nav{
+    width: 100%;
+    height: 120px;
+    background-color: #e8ebf1;
+}
+.nav-logo{
+    width: 20%;
+    float: left;
+    margin-left: 200px;
+    margin-top : 17px;
+}
+.nav-menu{
+    display: block;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    margin: 40px 200px 40px 0;
+}
+.nav-list-item{
+    float: left;
+}
+.nav-list-item>a:link,.nav-list-item>a:visited{
+    color: #000000;
+    display: inline-block;
+    padding: 12.5px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-list-item:hover>a{
+    background-color: #fff;
+    color: #2acac8;
+    border-top: 5px solid #2acac8;
+    padding-top: 7.5px;
+}
+.fa-angle-down{
+    color: #4f4f4f;
+    margin-left: 6px;
+}
+/*===DROPDOWN===*/
+.dropdown-content{
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    border-bottom: 5px solid #2acac8;
+    z-index: 1;
+}
+.dropdown-list-item{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+.dropdown-list-item:hover a{
+    color: #2acac8;
+}
+.dropdown-list-item:last-child{
+    border: 0;
+}
+.dropdown-list-item a{
+    display: inline-block;
+    text-transform: capitalize;
+    color: #000;
+    height: 100%;
+    padding: 12px 0;
+    margin-left: 15px;
+}
+.services-dropdown:hover .dropdown-content{
+    display: block;
+}
+/*==AFTER NAVIGATION==*/
+.main-header{
+    width: 100%;
+    height: 500px;
+    background-color: #81e4ed;
+}
+.main-header-content{
+    width: 1000px;
+    height: 440px;
+    margin: auto;
+    position: relative;
+}
+.main-header-content img{
+    overflow: auto;
+    margin-top: 20px;
+}
+.main-header-content h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    top: 120px;
+    left: 60px;
+    font-family: Lato;
+    font-size: 50px;
+    line-height: 55px;
+    color: #ffffff;
+}
+.icon-row{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.square-icon{
+    content: url('../img/white%20square.png');
+    margin: 14px 2px;   
+}
+.black-square-icon{
+    content: url('../img/black%20square.png');
+    margin: 14px 2px;
+}
+/*==================*/
+/*==MIDDLE SECTION==*/
+/*==================*/
+.middle-section{
+    width: 100%;
+    height: 300px;
+    background-color: #e8ebf1;
+    padding: 50px 0;
+}
+.middle-section .row{
+    width: 1000px;
+    margin: auto;
+}
+.row .col{
+    width: 25%;
+    float: left;
+    padding-right: 40px;
+}
+.row .col:last-child{
+    padding-right: 0;
+}
+.col1-row{
+    margin-bottom: 30px;
+}
+.col1-row span{
+    content: url('../img/pencil%20icon.png');
+    float: left;
+}
+.col1-row h2{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0 0 20px;
+}
+.col1-row::after{
+    clear: both;
+}
+.col2-row{
+    margin-bottom: 30px;
+}
+.col2-row span{
+    content: url('../img/pencil%20icon.png');
+    float: left;
+}
+.col2-row h2{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0px;
+}
+.col2-row::after{
+    clear: both;
+}
+.col3-row{
+    margin-bottom: 30px;
+}
+.col3-row span{
+    content: url('../img/pencil%20icon.png');
+    float: left;
+}
+.col3-row h2{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0 0 20px;
+}
+.col3-row::after{
+    clear: both;
+}
+.col4-row{
+    margin-bottom: 30px;
+}
+.col4-row span{
+    content: url('../img/pencil%20icon.png');
+    float: left;
+}
+.col4-row h2{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0 0 20px;
+}
+.col4-row::after{
+    clear: both;
+}
